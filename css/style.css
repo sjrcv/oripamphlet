@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* 共通部分 ---*/
+html{font-size: 100%;}
+
+body{font-family: "Yu Gothic Medinm", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif
+     line-height: 1.7;
+     color: #432;}
+
+a{text-decoration: none;}
+
+ul, ol{margin-left: 20px;}
+
+img{max-width: 100%;}
+
+.wrapper{max-width: 1100px;
+         margin: 0 auto;
+         padding:0 4%;}
+
+/*HOME---*/
+.page-header{display: flex;
+             justify-content: flex-end;}
+.main-nav{display: flex;
+          justify-content: flex-end;
+          font-size: 1.25rem;
+          text-transform: uppercase;
+          margin-top: 34px;
+          list-style: none;}
+.main-nav li{margin-left: 36px;}
+.main-nav a{color: #432;}
+.main-nav a:hover{color: #fff;}
+
+.home-content{text-align: center;
+              margin-top: 10%;
+              color: #fff;}
+.home-content p{font-size: 1.125rem;
+                margin: 10px 0 42px;}
+.page-title{font-size: 5rem;
+            font-family: "philosopher", serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            color: #fff;}
+
+#home{background-image: url(../images/main-bg.jpg);
+      min-height: 100vh;}
+
+
+
+
+.sub-nav{display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         font-size: 1.25rem;
+         text-transform: uppercase;
+         margin: 0 0 30px 0;
+         list-style: none;}
+.sub-nav li{margin-left: 0px;
+            background-color: #1b2538;}
+.sub-nav li:hover{background-color: #0c4da2;}
+.sub-nav a{color: #c0c0c0;
+           display: block;}
+.sub-nav a:hover{color: #fff;
+                 padding-right: 40px;}
+
+.header-title{text-align: center;
+              padding: 60px;}
+
+
+/* 見出し */
+.page-title{font-size: 5rem;
+            font-family: "philosopher", serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            color: #fff;}
+
+.header-title{font-size: 5rem;
+              font-family: "philosopher", serif;
+              text-transform: uppercase;
+              font-weight: normal;
+              color: #fff;
+              text-align: center;
+              padding: 60px;}
+
+/* 大きな背景画像 */
+.big-bg{background-size: cover;
+        background-position: center;
+        background-color: #0bd;
+        background-blend-mode: overlay;}
+
+.header-bg{background-image:url(../images/main-bg.jpg);
+         height: 270px;
+         margin-bottom:0;
+         background-size: cover;
+         background-position: center;}
+
+#home{background-image: url(../images/main-bg.jpg);
+      background-color: #;
+      background-blend-mode: ;
+      min-height: 100vh;}
+#home .page-title{text-transform: none;}
+
+/* YAKUINN ---*/
+#yakuinn{background-image:url(../images/main-bg.jpg);
+         height: 270px;
+         margin-bottom:0;}
+#yakuinn .page-title{text-align: center;
+                     padding: 60px;}
+
+.post-title{border-bottom: 2px solid #0bd;
+            font-size: 1.625rem;}
+
+/* 記事部分 */
+article{width: 74%;}
+
+article div{margin-bottom: 4rem;}
+
+
+/* サイドバー */
+aside{width: 22%;}
+aside p{padding: 12px 10px;}
+.sub-title{font-size:1.375rem;
+           padding: 0 8px 8px;
+           border-bottom: 2px #0bd solid;
+           font-weight: normal;}
+.sub-menu{margin-bottom: 60px;
+          list-style: none;}
+.sub-menu li{border-bottom: 1px #ddd solid;}
+.sub-menu a{color: #432;
+            padding: 10px;
+            display: block;}
+.sub-menu a:hover{color: #0bd;}
+.yakuinn-contents{display: flex;
+                  justify-content: space-between;
+                  margin-bottom: 50px;}
+
+/* SHINNKANN ---*/
+#shinnkann{background-image: url(../images/main-bg.jpg);
+           height: 270px;
+           margin-bottom: 0;}
+#shinnkann .page-title{text-align: center;
+            padding: 60px;}
+
+#shinnkann h1{margin-top: 20px;}
+
+.info{padding-bottom: 4rem;}
+
+.grid{display: grid;
+      gap: 26px;
+      grid-template-columns: 500px 500px;
+      margin-top: 1%;
+      margin-bottom: 50px;}
+
+
+.chia{border: 5px dotted #0bd;}
+.chia-photo {grid-template-columns: 100px;
+            float: right;
+            margin: 5px 5px 5px 5px;}
+
+/* GYAKUHYOUTEI ---*/
+#gyakuhyoutei{background-image:url(../images/main-bg.jpg);
+         height: 270px;
+         margin-bottom:0;}
+#gyakuhyoutei .page-title{text-align: center;}
+
+table{margin-bottom: 2rem;}
+
+th{width: 150px;}
+td{width: 300px;}
+
+.classmate{width: 300px;
+           height: 300px;
+           object-fit: cover;}
+
+
+/* RISYUU ---*/
