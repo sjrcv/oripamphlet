@@ -145,7 +145,7 @@ aside p{padding: 12px 10px;}
 
 .grid{display: grid;
       gap: 26px;
-      grid-template-columns: 500px 500px;
+      grid-template-columns: 400px 400px;
       margin-top: 1%;
       margin-bottom: 50px;}
 
